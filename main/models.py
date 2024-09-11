@@ -1,7 +1,8 @@
-from django.db import models
+import uuid  
 
 # Create your models here.
 from django.db import models
+
 
 class MoodEntry(models.Model):
     mood = models.CharField(max_length=255)
